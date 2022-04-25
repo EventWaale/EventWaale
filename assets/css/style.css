@@ -123,8 +123,5 @@ p {
 .text-2xl{
     font-size: x-large !important;
 }
-#phone::before{
-    content: '\01F4DE';
-}
 
 /*# sourceMappingURL=bd-coming-soon.css.map */
