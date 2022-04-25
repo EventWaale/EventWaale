@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,10 +8,13 @@
     <title>EventWaale | Coming Soon!</title>
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css"
+        integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="min-vh-100 d-flex flex-column">
+<body onload="getIcons()" class="min-vh-100 d-flex flex-column">
 
     <header>
         <div class="container">
@@ -19,8 +23,10 @@
                     <!-- <img src="assets/img/logo.svg" alt="logo"> -->
                     EventWaale🎊
                 </a>
-                <span class="navbar-text ml-auto d-none d-sm-inline-block"><span id="phone"></span> +91-7217641628 </span>
-                <span class="navbar-text d-none d-sm-inline-block"><span id="email"></span> Hey.eventwaale@gmail.com</span>
+                <a class="navbar-text ml-auto d-none d-sm-inline-block"><span id="phone"></span> +91-7217641628
+                </a>
+                <a class="navbar-text d-none d-sm-inline-block"><span id="email"></span>
+                    Hey.eventwaale@gmail.com</a>
             </nav>
         </div>
     </header>
@@ -36,17 +42,16 @@
             </p>
             <p>Stay connected</p>
             <nav class="footer-social-links">
-                <a href="#!" class="social-link"><i class="mdi mdi-facebook-box"></i></a>
-                <a href="#!" class="social-link"><i class="mdi mdi-twitter"></i></a>
-                <a href="#!" class="social-link"><i class="mdi mdi-google"></i></a>
-                <a href="#!" class="social-link"><i class="mdi mdi-slack"></i></a>
-                <a href="#!" class="social-link"><i class="mdi mdi-skype"></i></a>
+                <a href="javascript:void(0)" class="social-link"><i class="mdi mdi-facebook-box"></i></a>
+                <a href="javascript:void(0)" class="social-link"><i class="mdi mdi-twitter"></i></a>
+                <a href="javascript:void(0)" class="social-link"><i class="mdi mdi-google"></i></a>
+                <a href="javascript:void(0)" class="social-link"><i class="mdi mdi-slack"></i></a>
+                <a href="javascript:void(0)" class="social-link"><i class="mdi mdi-skype"></i></a>
             </nav>
         </div>
     </main>
 
     <script src="assets/js/index.js"></script>
-
 </body>
 
 </html>

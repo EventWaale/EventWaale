@@ -15,7 +15,8 @@ body {
     min-height: 100%;
     z-index: -2;
 }
-.overlay-video{
+
+.overlay-video {
     position: fixed;
     content: '';
     bottom: 0;
@@ -25,7 +26,9 @@ body {
     min-width: 100%;
     min-height: 100%;
 }
-.outside-overlay, header > .container{
+
+.outside-overlay,
+header>.container {
     z-index: 100 !important;
 }
 
@@ -35,6 +38,23 @@ body {
     }
 }
 
+a {
+    text-decoration: none !important;
+    cursor: pointer;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+}
+a:hover{
+    background-color: white;
+    color: purple !important;
+}
+a.social-link:hover{
+    color: white !important;
+
+}
 .navbar-brand {
     margin-right: 0;
 }
@@ -120,7 +140,8 @@ p {
     background-color: purple;
     color: #ffffff;
 }
-.text-2xl{
+
+.text-2xl {
     font-size: x-large !important;
 }
 
